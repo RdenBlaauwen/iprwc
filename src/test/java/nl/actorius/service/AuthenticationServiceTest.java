@@ -1,11 +1,11 @@
 package nl.actorius.service;
 
-import nl.hsleiden.service.AuthenticationService;
+import nl.rdenblaauwen.service.AuthenticationService;
 import java.util.Optional;
 import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.basic.BasicCredentials;
-import nl.hsleiden.model.User;
-import nl.hsleiden.persistence.UserDAO;
+import nl.rdenblaauwen.model.User;
+import nl.rdenblaauwen.persistence.UserDAO;
 import org.junit.After;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

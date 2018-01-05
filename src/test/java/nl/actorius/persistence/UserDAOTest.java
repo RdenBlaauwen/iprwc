@@ -1,7 +1,7 @@
 package nl.actorius.persistence;
 
-import nl.hsleiden.persistence.UserDAO;
-import nl.hsleiden.model.User;
+import nl.rdenblaauwen.persistence.UserDAO;
+import nl.rdenblaauwen.model.User;
 import org.junit.After;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;

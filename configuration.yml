@@ -1,4 +1,6 @@
-apiName: "Peters API"
+apiName: "Robert Api"
+template: Hello, %s!
+defaultName: Stranger
 
 assets:
   mappings:
@@ -15,3 +17,9 @@ server:
   adminConnectors:
     - type: http
       port: 8081
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: root
+  url: jdbc:postgresql://localhost:5432/rdenblaauwen-api
