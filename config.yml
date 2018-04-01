@@ -1,0 +1,23 @@
+apiName: "Groep10 Api"
+
+assets:
+  mappings:
+    /assets: /
+  overrides:
+    /: ../IPSEN3-frontend/dist/
+
+server:
+  rootPath: /api/*
+  adminContextPath: /admin
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8081
+
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: root
+  url: jdbc:postgresql://localhost:5432/webedu

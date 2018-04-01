@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RobertApi" />
+        <module name="WebeduApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RobertApi" target="1.8" />
-      <module name="workshop-api" target="1.8" />
+      <module name="WebeduApi" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
