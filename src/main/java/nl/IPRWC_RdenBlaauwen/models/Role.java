@@ -1,4 +1,4 @@
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
 /**
  * Created by Robert on 10/27/2017.

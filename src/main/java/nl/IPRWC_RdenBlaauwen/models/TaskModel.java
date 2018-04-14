@@ -1,6 +1,6 @@
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
-import nl.webedu.dao.SprintDAO;
+import nl.IPRWC_RdenBlaauwen.dao.SprintDAO;
 
 import java.lang.Exception;
 

@@ -1,4 +1,4 @@
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
 public class CustomerModel {
 	private int customer_id;

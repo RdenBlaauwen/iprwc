@@ -1,6 +1,6 @@
-package nl.webedu.models.entrymodels;
+package nl.IPRWC_RdenBlaauwen.models.entrymodels;
 
-import nl.webedu.models.EntryModel;
+import nl.IPRWC_RdenBlaauwen.models.EntryModel;
 
 import java.sql.Date;
 import java.util.ArrayList;

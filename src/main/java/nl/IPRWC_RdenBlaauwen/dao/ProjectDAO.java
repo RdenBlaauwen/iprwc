@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
-import nl.webedu.models.ProjectModel;
+import nl.IPRWC_RdenBlaauwen.models.ProjectModel;
 
 import java.sql.*;
 import java.util.ArrayList;

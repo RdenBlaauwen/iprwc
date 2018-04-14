@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.resources;
+package nl.IPRWC_RdenBlaauwen.resources;
+import nl.IPRWC_RdenBlaauwen.services.EntryService;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import javax.ws.rs.QueryParam;
@@ -19,19 +20,18 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import nl.webedu.models.EntryModel;
-import nl.webedu.helpers.DateHelper;
-import nl.webedu.dao.EntryDAO;
+import nl.IPRWC_RdenBlaauwen.models.EntryModel;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.dao.EntryDAO;
 import javax.validation.Valid;
 
 import javax.ws.rs.Path;
-import nl.webedu.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
 import javax.inject.Inject;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.PUT;
 
-import nl.webedu.models.entrymodels.WeekModel;
-import nl.webedu.services.*;
+import nl.IPRWC_RdenBlaauwen.models.entrymodels.WeekModel;
 
 /**
  *

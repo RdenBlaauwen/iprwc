@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.resources;
+package nl.IPRWC_RdenBlaauwen.resources;
 import java.util.ArrayList;
 import javax.ws.rs.QueryParam;
 import io.dropwizard.auth.Auth;
@@ -16,10 +16,10 @@ import javax.ws.rs.POST;
 import javax.ws.rs.*;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import nl.webedu.models.CategoryModel;
+import nl.IPRWC_RdenBlaauwen.models.CategoryModel;
 import javax.ws.rs.Path;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.services.CategoryService;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.services.CategoryService;
 
 /**
  *

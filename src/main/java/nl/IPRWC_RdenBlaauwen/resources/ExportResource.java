@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.resources;
+package nl.IPRWC_RdenBlaauwen.resources;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.auth.Auth;
@@ -13,9 +13,9 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import nl.webedu.models.CSVModel;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.services.ExportService;
+import nl.IPRWC_RdenBlaauwen.models.CSVModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.services.ExportService;
 
 /**
  *

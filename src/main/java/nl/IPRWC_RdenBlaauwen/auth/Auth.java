@@ -1,13 +1,13 @@
 
-package nl.webedu.auth;
+package nl.IPRWC_RdenBlaauwen.auth;
 
 import com.google.common.base.Optional;
 import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.Authenticator;
 import io.dropwizard.auth.basic.BasicCredentials;
 import java.util.ArrayList;
-import nl.webedu.dao.EmployeeDAO;
-import nl.webedu.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.dao.EmployeeDAO;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
 
 /**
  *

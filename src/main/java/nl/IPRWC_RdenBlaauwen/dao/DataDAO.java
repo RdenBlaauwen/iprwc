@@ -1,9 +1,9 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
 import java.io.FileWriter;
 import java.sql.ResultSet;
 import java.sql.Statement;
-import nl.webedu.models.CSVModel;
+import nl.IPRWC_RdenBlaauwen.models.CSVModel;
 
 public class DataDAO {
 	private ConnectDAO connect;

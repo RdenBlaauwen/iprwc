@@ -1,12 +1,12 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
-import nl.webedu.models.EntryModel;
+import nl.IPRWC_RdenBlaauwen.models.EntryModel;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import nl.webedu.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
 
 public class EntryDAO {
     private ConnectDAO connect;
@@ -198,7 +198,6 @@ public class EntryDAO {
     /**
 	 * Deze methode laat een lijst zien van entries die de status queued hebben.
 	 * @author rezanaser
-	 * @param e_id dunno lol
 	 * @return entry_alist lijst van alle entry's die in de wachtrij staan
 	 */
 	public ArrayList<EntryModel> entry_queued_list(){

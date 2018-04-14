@@ -1,7 +1,7 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
 import java.sql.Connection;
-import nl.webedu.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -1,4 +1,4 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,9 +6,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import nl.webedu.helpers.DateHelper;
-import nl.webedu.models.CategoryModel;
-import nl.webedu.models.TaskModel;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.models.CategoryModel;
+import nl.IPRWC_RdenBlaauwen.models.TaskModel;
 
 
 /**

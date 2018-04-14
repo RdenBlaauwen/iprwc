@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.services;
-import nl.webedu.dao.ProjectDAO;
+package nl.IPRWC_RdenBlaauwen.services;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.EntryModel;
+import nl.IPRWC_RdenBlaauwen.dao.EntryDAO;
+import nl.IPRWC_RdenBlaauwen.dao.EmployeeDAO;
+import nl.IPRWC_RdenBlaauwen.dao.SprintDAO;
+import nl.IPRWC_RdenBlaauwen.dao.TaskDAO;
+import nl.IPRWC_RdenBlaauwen.dao.ProjectDAO;
 import java.sql.Date;
 import java.sql.Time;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import nl.webedu.helpers.DateHelper;
-import nl.webedu.models.*;
-import nl.webedu.dao.*;
-import nl.webedu.models.entrymodels.DayModel;
-import nl.webedu.models.entrymodels.WeekModel;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.models.entrymodels.DayModel;
+import nl.IPRWC_RdenBlaauwen.models.entrymodels.WeekModel;
 
 /**
  *

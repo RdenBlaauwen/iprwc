@@ -1,6 +1,6 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
-import nl.webedu.models.CustomerModel;
+import nl.IPRWC_RdenBlaauwen.models.CustomerModel;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

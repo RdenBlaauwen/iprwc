@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
-import nl.webedu.dao.DataDAO;
-import nl.webedu.models.CSVModel;
+import nl.IPRWC_RdenBlaauwen.dao.DataDAO;
+import nl.IPRWC_RdenBlaauwen.models.CSVModel;
 
 /**
  *

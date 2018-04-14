@@ -1,4 +1,4 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

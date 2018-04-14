@@ -1,11 +1,11 @@
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import nl.webedu.dao.EmployeeDAO;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.models.Role;
+import nl.IPRWC_RdenBlaauwen.dao.EmployeeDAO;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.Role;
 
 public class EmployeeService {
     

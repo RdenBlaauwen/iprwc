@@ -1,10 +1,10 @@
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
 import java.util.ArrayList;
-import nl.webedu.dao.ProjectDAO;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.models.ProjectModel;
-import nl.webedu.models.Role;
+import nl.IPRWC_RdenBlaauwen.dao.ProjectDAO;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.ProjectModel;
+import nl.IPRWC_RdenBlaauwen.models.Role;
 
 public class ProjectService {
     private ProjectDAO projectDAO;

@@ -1,9 +1,9 @@
 /**
  * 
  */
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
-import nl.webedu.dao.EmployeeDAO;
+import nl.IPRWC_RdenBlaauwen.dao.EmployeeDAO;
 
 /**
  * @author Boris Janjic

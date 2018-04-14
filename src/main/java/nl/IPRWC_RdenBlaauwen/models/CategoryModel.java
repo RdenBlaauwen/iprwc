@@ -1,6 +1,6 @@
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
-import nl.webedu.dao.ProjectDAO;
+import nl.IPRWC_RdenBlaauwen.dao.ProjectDAO;
 
 import java.util.ArrayList;
 

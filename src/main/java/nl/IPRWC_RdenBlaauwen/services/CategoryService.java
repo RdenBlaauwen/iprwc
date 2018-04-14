@@ -1,12 +1,12 @@
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
 import java.sql.Date;
 import java.util.ArrayList;
-import nl.webedu.dao.SprintDAO;
-import nl.webedu.helpers.DateHelper;
-import nl.webedu.models.CategoryModel;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.models.Role;
+import nl.IPRWC_RdenBlaauwen.dao.SprintDAO;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.models.CategoryModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.Role;
 
 public class CategoryService {
     

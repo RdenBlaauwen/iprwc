@@ -1,15 +1,15 @@
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import nl.webedu.dao.ProjectDAO;
-import nl.webedu.dao.SprintDAO;
-import nl.webedu.dao.TaskDAO;
-import nl.webedu.models.CategoryModel;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.models.ProjectModel;
-import nl.webedu.models.TaskModel;
+import nl.IPRWC_RdenBlaauwen.dao.ProjectDAO;
+import nl.IPRWC_RdenBlaauwen.dao.SprintDAO;
+import nl.IPRWC_RdenBlaauwen.dao.TaskDAO;
+import nl.IPRWC_RdenBlaauwen.models.CategoryModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.ProjectModel;
+import nl.IPRWC_RdenBlaauwen.models.TaskModel;
 
 public class TaskService {
     private TaskDAO taskDao = new TaskDAO();

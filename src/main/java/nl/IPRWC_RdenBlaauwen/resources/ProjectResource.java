@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package nl.webedu.resources;
+package nl.IPRWC_RdenBlaauwen.resources;
 
 import io.dropwizard.auth.Auth;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.models.ProjectModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.models.ProjectModel;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
 import javax.validation.Valid;
-import nl.webedu.services.ProjectService;
+import nl.IPRWC_RdenBlaauwen.services.ProjectService;
 
 /**
  *

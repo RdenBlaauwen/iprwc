@@ -1,11 +1,11 @@
-package nl.webedu.dao;
+package nl.IPRWC_RdenBlaauwen.dao;
 
-import nl.webedu.models.ProjectModel;
-import nl.webedu.models.CategoryModel;
+import nl.IPRWC_RdenBlaauwen.models.ProjectModel;
+import nl.IPRWC_RdenBlaauwen.models.CategoryModel;
 
 import java.sql.*;
 import java.util.ArrayList;
-import nl.webedu.helpers.DateHelper;
+import nl.IPRWC_RdenBlaauwen.helpers.DateHelper;
 
 public class SprintDAO {
     private ConnectDAO connect;

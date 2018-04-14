@@ -1,4 +1,4 @@
-package nl.webedu.models;
+package nl.IPRWC_RdenBlaauwen.models;
 
 import java.sql.Date;
 

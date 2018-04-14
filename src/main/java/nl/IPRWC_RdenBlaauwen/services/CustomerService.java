@@ -1,9 +1,9 @@
-package nl.webedu.services;
+package nl.IPRWC_RdenBlaauwen.services;
 
 import java.util.ArrayList;
-import nl.webedu.dao.CustomerDAO;
-import nl.webedu.models.CustomerModel;
-import nl.webedu.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.dao.CustomerDAO;
+import nl.IPRWC_RdenBlaauwen.models.CustomerModel;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
 
 public class CustomerService {
     private CustomerDAO customerDao = new CustomerDAO();
