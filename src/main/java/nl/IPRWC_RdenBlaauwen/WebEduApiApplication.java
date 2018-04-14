@@ -1,5 +1,10 @@
-package nl.webedu;
+package nl.IPRWC_RdenBlaauwen;
 
+import nl.IPRWC_RdenBlaauwen.resources.EntryResource;
+import nl.IPRWC_RdenBlaauwen.resources.TaskResource;
+import nl.IPRWC_RdenBlaauwen.resources.CustomerResource;
+import nl.IPRWC_RdenBlaauwen.resources.ExportResource;
+import nl.IPRWC_RdenBlaauwen.resources.CategoryResource;
 import io.dropwizard.Application;
 import io.dropwizard.ConfiguredBundle;
 import io.dropwizard.auth.AuthFactory;
@@ -7,16 +12,15 @@ import io.dropwizard.auth.basic.BasicAuthFactory;
 import io.dropwizard.bundles.assets.ConfiguredAssetsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
-import nl.webedu.auth.Auth;
-import nl.webedu.healthchecks.DatabaseHealthCheck;
-import nl.webedu.models.EmployeeModel;
-import nl.webedu.resources.ProjectResource;
-import nl.webedu.resources.EmployeeResource;
+import nl.IPRWC_RdenBlaauwen.auth.Auth;
+import nl.IPRWC_RdenBlaauwen.healthchecks.DatabaseHealthCheck;
+import nl.IPRWC_RdenBlaauwen.models.EmployeeModel;
+import nl.IPRWC_RdenBlaauwen.resources.ProjectResource;
+import nl.IPRWC_RdenBlaauwen.resources.EmployeeResource;
 import org.eclipse.jetty.servlets.CrossOriginFilter;
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
 import java.util.EnumSet;
-import nl.webedu.resources.*;
 
 /**
  * Deze klasse is de startpunt van de api

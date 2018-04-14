@@ -1,4 +1,4 @@
-package nl.webedu;
+package nl.IPRWC_RdenBlaauwen;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
