@@ -21,6 +21,8 @@ import org.eclipse.jetty.servlets.CrossOriginFilter;
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
 import java.util.EnumSet;
+import nl.IPRWC_RdenBlaauwen.models.AccountModel;
+import nl.IPRWC_RdenBlaauwen.resources.ProductResource;
 
 /**
  * Deze klasse is de startpunt van de api
@@ -63,18 +65,12 @@ public class WebEduApiApplication extends Application<WebEduApiConfiguration> {
          */
         System.out.println("Opstarten 2");
         environment.healthChecks().register("database", new DatabaseHealthCheck());//Voert healthcheck uit(controlleer de connectie met de database)
-        environment.jersey().register(new EmployeeResource());
-        environment.jersey().register(new ProjectResource());
-        environment.jersey().register(new EntryResource());
-        environment.jersey().register(new CategoryResource());
-        environment.jersey().register(new CustomerResource());
-        environment.jersey().register(new TaskResource());
-        environment.jersey().register(new ExportResource());
+        environment.jersey().register(new ProductResource());
         environment.jersey().register(AuthFactory.binder(
                 new BasicAuthFactory<>(
                         new Auth(),
                         "Security realm",
-                        EmployeeModel.class
+                        AccountModel.class
                 )));
         System.out.println("Opstarten 3");
 

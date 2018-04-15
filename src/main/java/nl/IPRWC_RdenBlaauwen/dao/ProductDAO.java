@@ -44,7 +44,7 @@ public class ProductDAO {
         while(resultSet.next()){
             ProductModel model = new ProductModel();
             model.setId(resultSet.getInt("p_id"));
-            model.setName(resultSet.getString("p_name"));
+            model.setName(resultSet.getString("p_productname"));
             model.setDescription(resultSet.getString("p_description"));
             model.setImage(resultSet.getString("p_image"));
             model.setPrice(resultSet.getFloat("p_price"));

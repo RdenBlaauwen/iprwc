@@ -19,7 +19,7 @@ public class ConnectDAO {
             Class.forName("org.postgresql.Driver");
             // Setup the connection with the DB
             connect = DriverManager
-                    .getConnection("jdbc:postgresql://localhost:5432/webedu",
+                    .getConnection("jdbc:postgresql://localhost:5432/IPRWC-RdenBlaauwen",
                             "postgres", "postgres");
         } catch(SQLException e){
             e.printStackTrace();
